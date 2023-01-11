@@ -37,4 +37,5 @@ L| () L_n_n|\( //  \_/|_/L| L| Ln|L|
 pswd = input("Çözülecek Şifreyi Girin: ")
 
 liste = [i for i in pswd if i.isalpha()]
+print("Şifreniz Çözüldü!")
 print("".join(liste))
